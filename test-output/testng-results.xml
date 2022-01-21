@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-13T11:39:47 IST" name="Default suite" finished-at="2022-01-13T11:39:47 IST" duration-ms="81">
+  <suite started-at="2022-01-21T12:31:54 IST" name="Default suite" finished-at="2022-01-21T12:32:15 IST" duration-ms="20317">
     <groups>
     </groups>
-    <test started-at="2022-01-13T11:39:47 IST" name="Default test" finished-at="2022-01-13T11:39:47 IST" duration-ms="81">
-      <class name="testng.testng">
-        <test-method is-config="true" signature="test1()[pri:0, instance:testng.testng@614ca7df]" started-at="2022-01-13T11:39:47 IST" name="test1" finished-at="2022-01-13T11:39:47 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-01-21T12:31:54 IST" name="Default test" finished-at="2022-01-21T12:32:15 IST" duration-ms="20317">
+      <class name="TestScenarios.TestFN">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:TestScenarios.TestFN@23c30a20]" started-at="2022-01-21T12:31:54 IST" name="beforetest" finished-at="2022-01-21T12:32:01 IST" duration-ms="6866" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:testng.testng@614ca7df]" started-at="2022-01-13T11:39:47 IST" name="test2" finished-at="2022-01-13T11:39:47 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- beforetest -->
+        <test-method signature="AccessFacebook()[pri:0, instance:TestScenarios.TestFN@23c30a20]" started-at="2022-01-21T12:32:01 IST" name="AccessFacebook" finished-at="2022-01-21T12:32:05 IST" duration-ms="3233" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="test3()[pri:0, instance:testng.testng@614ca7df]" started-at="2022-01-13T11:39:47 IST" name="test3" finished-at="2022-01-13T11:39:47 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- AccessFacebook -->
+        <test-method signature="SearchOperation()[pri:0, instance:TestScenarios.TestFN@23c30a20]" started-at="2022-01-21T12:32:05 IST" name="SearchOperation" finished-at="2022-01-21T12:32:14 IST" duration-ms="9664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- testng.testng -->
+        </test-method> <!-- SearchOperation -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TestScenarios.TestFN@23c30a20]" started-at="2022-01-21T12:32:14 IST" name="aftertest" finished-at="2022-01-21T12:32:15 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- TestScenarios.TestFN -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
